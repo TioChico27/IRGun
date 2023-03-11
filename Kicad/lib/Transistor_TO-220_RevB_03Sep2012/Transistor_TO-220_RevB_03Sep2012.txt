@@ -1,0 +1,51 @@
+# About  the file
+Transistor_TO-220_RevB_03Sep2012.mod
+
+Contains the KiCAD module/footprint of some
+TO-220 housings.
+
+TO-220_Bipolar-BCE_Horizontal
+TO-220_Bipolar-BCE_Horizontal_LargePads
+TO-220_Bipolar-BCE_Horizontal_MountedFromLS
+TO-220_Bipolar-BCE_Horizontal_MountedFromLS_LargePads
+TO-220_Bipolar-BCE_Horizontal_Reverse
+TO-220_Bipolar-BCE_Horizontal_Reverse_LargePads
+TO-220_Bipolar-BCE_Vertical
+TO-220_Bipolar-BCE_Vertical_LargePads
+TO-220_Bipolar-BCE_Vertical_MountedFromLS
+TO-220_Bipolar-BCE_Vertical_MountedFromLS_LargePads
+TO-220_FET-GDS_Horizontal
+TO-220_FET-GDS_Horizontal_LargePads
+TO-220_FET-GDS_Horizontal_MountedFromLS
+TO-220_FET-GDS_Horizontal_MountedFromLS_LargePads
+TO-220_FET-GDS_Horizontal_Reverse
+TO-220_FET-GDS_Horizontal_Reverse_LargePads
+TO-220_FET-GDS_Vertical
+TO-220_FET-GDS_Vertical_LargePads
+TO-220_FET-GDS_Vertical_MountedFromLS
+TO-220_FET-GDS_Vertical_MountedFromLS_LargePads
+TO-220_Neutral123_Horizontal
+TO-220_Neutral123_Horizontal_LargePads
+TO-220_Neutral123_Horizontal_MountedFromLS
+TO-220_Neutral123_Horizontal_MountedFromLS_LargePads
+TO-220_Neutral123_Horizontal_Reverse
+TO-220_Neutral123_Horizontal_Reverse_LargePads
+TO-220_Neutral123_PadsOnly
+TO-220_Neutral123_Vertical
+TO-220_Neutral123_Vertical_LargePads
+TO-220_Neutral123_Vertical_MountedFromLS
+TO-220_Neutral123_Vertical_MountedFromLS_LargePads
+
+
+There is also a file "Transistor_TO-220_RevB_03Sep2012.pdf" which contains 
+a pdf preview of the footprints.
+
+At the folder "Transistor_TO-220_Wings3d_RevB_03Sep2012" you will also find some 
+wings3d / .WRL files with mesh models.
+
+For suggestions and improvements please contact me at
+bernd.wiebus@gmx.de
+
+Author: Bernd Wiebus / Uedem / Germany / 03th Septemper 2012
+GNU-GPL, NO WARRANTY!
+
