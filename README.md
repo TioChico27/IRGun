@@ -1,23 +1,25 @@
-# SAMCO - Arduino Powered IR Light Gun
+# IR « Light » Gun avec Arduino
+Forked project from https://github.com/samuelballantyne/IR-Light-Gun/tree/master/Samco_4IR_Beta/Samco_2.0_4IR_32u4_BETA
 
-For information on how to use this libraries please visit my YouTube channel https://www.youtube.com/c/samcorulz.
+This entire project is describe here : 
+- https://burogu.makotoworkshop.org/index.php?post/2023/01/31/irgun_arduino
+- https://burogu.makotoworkshop.org/index.php?post/2023/03/02/irgun_arduino2
+- https://burogu.makotoworkshop.org/index.php?post/2023/03/04/irgun_arduino3
 
-The SAMCO is a Namco light gun with the insides replaced with an Arduino micro controller and DF Robot IR positioning camera and works as HID mouse on LCD (flat screen) TV/monitors.
+Video Démo here :
+- https://peertube.makotoworkshop.org/w/bESF7cy5ayA5ZS5VjgZZ54
 
-Gun currently works with Mame in RetroPie (for Raspberry Pi), PSX Beetle (Windows) and PCSX2 (Windows).
+Quick description : 
+   - Hack for Pistolet X-SHOT LASER360 ("laser" game toy)
+   - Work with DF Robot IR positioning camera, or WiiMote IR Cam Hack
+   - Work with 4 LEDs IR sources setup (2 up and 2 down to the screen)
+  -  Upload to an Arduino Pro Micro (32u4 - Leonardo) this file : LightGunIR_4IR_Makoto_V2.3.ino
 
-Parts:  
-Adafruit ItsyBitsy 32u4 (3V or 5V), M0 & M4  
-DF Robot IR positioning camera  
-Wii USB sensor bar (not dolphin bar, dolphin bar needs wiimote to turn it on)
+Features :  
+- Quick calibration  
+- Pause/recaibration  
+- Tilt correction  
 
-Features:  
-Quick calibration  
-Pause/recaibration  
-Tilt correction  
-
-In this project I've used libraries from DFRobot & Jonathan Edgecome. Original Libraries can be found at...
-https://github.com/DFRobot/DFRobotIRPosition  
-https://github.com/jonathanedgecombe/absmouse
-
-If you haven't brought a PCB but enjopyed this code please consider making a small donation to help me contuine developing and supplying support for this project https://www.paypal.me/sammywizbang. Cheers Sam(co)
+This project used libraries from DFRobot & Jonathan Edgecome. Original Libraries can be found at :
+- https://github.com/DFRobot/DFRobotIRPosition
+- https://github.com/jonathanedgecombe/absmouse
