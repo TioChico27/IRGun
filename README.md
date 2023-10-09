@@ -10,7 +10,6 @@ Video Démo here :
 - https://peertube.makotoworkshop.org/w/bESF7cy5ayA5ZS5VjgZZ54
 
 Quick description : 
-   - Hack for Pistolet X-SHOT LASER360 ("laser" game toy)
    - Work with DF Robot IR positioning camera, or WiiMote IR Cam Hack
    - Work with 4 LEDs IR sources setup (2 up and 2 down to the screen)
   -  Upload to an Arduino Pro Micro (32u4 - Leonardo) this file : LightGunIR_4IR_Makoto_V2.3.ino
