@@ -91,34 +91,27 @@
    
    Ok - Si recarga manual, el botón de recarga, pues recarga (botón de joystick y clic de ratón)
    
-      - Solucionar bug: si se activa la recarga y el disparo al mismo tiempo, al pasar al modo de disparo automático "Ametralladora", la pistola comienza a disparar sin parar
+   - Solucionar bug: si se activa la recarga y el disparo al mismo tiempo, al pasar al modo de disparo automático "Ametralladora", la pistola comienza a disparar sin parar
       
-*/
+          CÓMO CALIBRAR:
+     
+            Paso 1: Presiona los botones START + RECARGAR
+
+            Paso 2: Pulsa el gatillo
+
+            Paso 3: Dispara al centro de la pantalla (intenta hacerlo lo más preciso posible)
+
+            Paso 4: El ratón debería bloquearse en el eje vertical, (usa los botones de Start y Recarga para ajustar el ratón arriba/abajo)
+
+            Paso 5: Pulsa el gatillo
+
+            Paso 6: El ratón debería bloquearse en el eje horizontal, (usa los botones de Inicio y Recarga para ajustar el ratón izquierda/derecha)
+
+            Paso 7: Pulsa el gatillo para finalizar
+
+            Paso 8: Los ajustes se guardan ahora en la EEPROM
 
 
-/* CÓMO CALIBRAR:
-Paso 1: Presiona los botones START + RECARGAR
-
-Paso 2: Pulsa el gatillo
-
-Paso 3: Dispara al centro de la pantalla (intenta hacerlo lo más preciso posible)
-
-Paso 4: El ratón debería bloquearse en el eje vertical, 
-
-(usa los botones de Start y Recarga para ajustar el ratón arriba/abajo)
-
-Paso 5: Pulsa el gatillo
-
-Paso 6: El ratón debería bloquearse en el eje horizontal, 
-
-(usa los botones de Inicio y Recarga para ajustar el ratón izquierda/derecha)
-
-Paso 7: Pulsa el gatillo para finalizar
-
-Paso 8: Los ajustes se guardan ahora en la EEPROM
-
-   
-*/
 Forked project from https://github.com/samuelballantyne/IR-Light-Gun/tree/master/Samco_4IR_Beta/Samco_2.0_4IR_32u4_BETA
 
 This entire project is describe here : 
