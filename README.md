@@ -1,11 +1,6 @@
-/* ######################
-   # TRABAJO ORIGINAL DE:
-   ######################
-   @file Samco_2.0_4IR_32u4_BETA.ino
-   
-   @brief Esquema del Light Gun de 10 botones para configuración de 4 LED
-   
-   @n Archivo INO para la configuración de Samco Light Gun con 4 LED
+    ######################
+    TRABAJO ORIGINAL DE:
+    ######################
    
    @copyright   Samco, https://github.com/samuelballantyne, junio de 2020
    
@@ -26,15 +21,14 @@
    
    # MODIFICADO Por Makoto : makotoworkshop.org
    
-   rev y traduccion por www.mundoyakara.com
+   revision + arduino portable + app de testeo 4ir + traduccion por www.mundoyakara.com
    
    ######################
    
-   LightGunIR_4IR_Makoto_V2.3.ino - 12/2022
-   
+
    Funciona con una configuración de 4 fuentes de luz infrarroja (2 arriba y 2 abajo de la pantalla)
    
-   Cargar en un Arduino Pro Micro (32u4 - Leonardo)
+   Cargar en un Arduino Pro Micro (32u4 - 3.3 8.000Mhz)
    
    
    Ok - Reemplazo del teclado HID por un Joystick HID (Stick XY y botones (Inicio, Recarga, Gatillo))
@@ -52,8 +46,6 @@
    Ok - Interruptor de selección para desactivar el Joystick.
    
    Ok - Interruptor de selección para activar el modo híbrido.
-   
-   Ok - Gestión del Solenoide, que se activa en cada disparo.  https://arduinodiy.wordpress.com/2012/05/02/using-mosfets-with-ttl-levels/
    
    Ok - Botón de selección del modo de disparo automático (para 1 presión del gatillo = 1 disparo, 2 disparos, 3 disparos, 4 disparos, 5 disparos, 6 disparos, Ametralladora)
    
@@ -79,13 +71,9 @@
           
    Ok - Gestión del LED de Fuego (led rojo que parpadea en cada disparo)
    
-   Ok - Gestión de 3 LED indicadores para indicar la activación/desactivación de los modos: Led 1+2 Híbrido, Led 1 Solo Ratón, Led 2 Solo Joystick, Led 3 Recarga)
-   
    Ok - Soporte del modo automático para el Ratón.
    
    Ok - Soporte del modo automático para el Joystick.
-   
-   Ok - Modo de depuración automática cuando el Híbrido está activado.
    
    Ok - Hacer parpadear el led en disparo estándar mantenido.
    
@@ -122,10 +110,6 @@ This entire project is describe here :
 Video Démo here :
 - https://peertube.makotoworkshop.org/w/bESF7cy5ayA5ZS5VjgZZ54
 
-Quick description : 
-   - Work with DF Robot IR positioning camera, or WiiMote IR Cam Hack
-   - Work with 4 LEDs IR sources setup (2 up and 2 down to the screen)
-  -  Upload to an Arduino Pro Micro (32u4 - Leonardo) this file : LightGunIR_4IR_Makoto_V2.3.ino
 
 Features :  
 - Quick calibration  
