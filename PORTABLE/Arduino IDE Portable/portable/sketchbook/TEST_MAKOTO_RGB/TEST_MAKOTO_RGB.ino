@@ -43,7 +43,6 @@ int currentColor = 0; // Variable para rastrear el color actual
 
 
 void setup() {
-  digitalWrite(5, HIGH); // This pin is used to power the IR Camera when using Samco PCB
   delay(500);
   myDFRobotIRPosition.begin(); // initialize the object in setup()
   Serial.begin(9600);
