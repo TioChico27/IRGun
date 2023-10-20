@@ -1290,7 +1290,7 @@ void skip() {    // Unpause button
 void loadSettings() {     // Re-charger les valeurs de calibration depuis la mémoire EEPROM
   if (EEPROM.read(1023) == 'T') {
     //settings have been initialized, read them
-    xCenter = EEPROM.read(0) + 256;
+    xCenter = EEPROM.read(0) + 512;
     yCenter = EEPROM.read(1) + 256;
     xOffset = EEPROM.read(2);
     yOffset = EEPROM.read(3);
