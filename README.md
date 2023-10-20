@@ -101,7 +101,6 @@
 
 <img src="ARDUINO MICRO MAKOTO.jpg"
 height="500">
-Aquí tienes la traducción al español de tu texto:
 
 "Proyecto derivado de https://github.com/samuelballantyne/IR-Light-Gun/tree/master/Samco_4IR_Beta/Samco_2.0_4IR_32u4_BETA
 
