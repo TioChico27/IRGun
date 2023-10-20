@@ -1,24 +1,24 @@
 #include <Wire.h>
 #include <DFRobotIRPosition.h>
 
-DFRobotIRPosition myDFRobotIRPosition; // declare a IRCam object
+DFRobotIRPosition myDFRobotIRPosition; // declarar un objeto IRCam
 
-int positionX[4]; // RAW Sensor Values
+int positionX[4]; // Valores crudos del sensor
 int positionY[4];
 
-int oneY = 0; // Re-mapped so left sensor is always read first
+int oneY = 0; // Reasignado para que el sensor izquierdo se lea primero
 int oneX = 0;
 int twoY = 0;
 int twoX = 0;
 int redPin = 9;
 int greenPin = 6;
 int bluePin = 5;
-int caliPin = 14; // Set Calibration Pin
-int leftPin = 15; // Set Left Mouse Pin
-int rightPin = 16; // Set Right Mouse Pin
-int middlePin = 4; // Set Middle Mouse Pin
-int pedalPin = 7; // Set pedal Pin
-int mousePin = 8; // Set Mouse Pin
+int caliPin = 14; // Configurar el pin de calibración
+int leftPin = 15; // Configurar el pin del botón izquierdo del ratón
+int rightPin = 16; // Configurar el pin del botón derecho del ratón
+int middlePin = 4; // Configurar el pin del botón central del ratón
+int pedalPin = 7; // Configurar el pin del pedal
+int mousePin = 8; // Configurar el pin del ratón
 
 int caliButton = 0;
 int leftButton = 0;
@@ -27,7 +27,7 @@ int middleButton = 0;
 int pedalButton = 0;
 int mouseButton = 0;
 
-int buttonState1 = 0; // Set Button states
+int buttonState1 = 0; // Establecer estados de los botones
 int lastButtonState1 = 0;
 int buttonState2 = 0;
 int lastButtonState2 = 0;
@@ -37,75 +37,54 @@ int buttonState4 = 0;
 int lastButtonState4 = 0;
 int buttonState5 = 0;
 int lastButtonState5 = 0;
-int buttonState = 0; // Variable para almacenar el estado del botón
-int lastButtonState = 0; // Variable para almacenar el estado previo del botón
+
 int currentColor = 0; // Variable para rastrear el color actual
 
+int solenoidPin = A10; // Configurar el pin del solenoide
 
 void setup() {
   delay(500);
-  myDFRobotIRPosition.begin(); // initialize the object in setup()
+  myDFRobotIRPosition.begin(); // inicializar el objeto en setup()
   Serial.begin(9600);
-pinMode(redPin, OUTPUT);
+  pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
-  pinMode(caliPin, INPUT_PULLUP); // Set pin modes
+  pinMode(caliPin, INPUT_PULLUP); // Configurar modos de pin
   pinMode(leftPin, INPUT_PULLUP);
   pinMode(rightPin, INPUT_PULLUP);
   pinMode(middlePin, INPUT_PULLUP);
   pinMode(pedalPin, INPUT_PULLUP);
-  pinMode(mousePin, INPUT_PULLUP); // Set Mouse Pin
+  pinMode(mousePin, INPUT_PULLUP);
+  pinMode(solenoidPin, OUTPUT); // Configurar el pin del solenoide
   setColor(255, 0, 0); // Enciende el LED RGB en rojo al inicio
-
 }
 
 void loop() {
-
   getPosition();
   mouseButtons();
   pedalButtons();
   PrintResults();
-  buttonState = digitalRead(rightPin);
-
-  if (buttonState != lastButtonState) {
-    if (buttonState == LOW) {
-      // Cambia el color del LED RGB al presionar rightPin
-      changeColor();
-    }
-    lastButtonState = buttonState;
-  }
+  // No es necesario verificar el botón caliButton aquí
 }
+
 void setColor(int red, int green, int blue) {
   analogWrite(redPin, red);
   analogWrite(greenPin, green);
   analogWrite(bluePin, blue);
 }
 
-void changeColor() {
-  currentColor++; // Incrementa el color actual
-  if (currentColor > 2) {
-    currentColor = 0; // Reinicia el ciclo cuando alcanza el tercer color
-  }
-
-  if (currentColor == 0) {
-    setColor(255, 0, 0); // Rojo
-  } else if (currentColor == 1) {
-    setColor(0, 255, 0); // Verde
-  } else if (currentColor == 2) {
-    setColor(255, 255, 0); // Azul
-  }
-}
-
-void mouseButtons() { // Setup Cali, Left, Right, Middle, and Mouse buttons
+void mouseButtons() { // Configurar botones de caliButton, Left, Right, Middle y Mouse
   buttonState1 = digitalRead(caliPin);
   
   if (buttonState1 != lastButtonState1) {
     if (buttonState1 == LOW) {
       caliButton = 0;
       digitalWrite(A0, HIGH);  // Enciende el LED en el pin A0 cuando caliButton está presionado (LOW).
+      digitalWrite(solenoidPin, HIGH);  // Activa el solenoide cuando caliButton está presionado (LOW).
     } else {
       caliButton = 255;
       digitalWrite(A0, LOW);   // Apaga el LED en el pin A0 cuando caliButton se suelta (HIGH).
+      digitalWrite(solenoidPin, LOW);   // Desactiva el solenoide cuando caliButton se suelta (HIGH).
     }
     delay(10);
   }
