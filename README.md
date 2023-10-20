@@ -83,7 +83,7 @@
       
           CÓMO CALIBRAR:
      
-            Paso 1: Presiona los botones START + RECARGAR
+            Paso 1: Presiona los botones START + RECARGAR + GATILLO
 
             Paso 2: Pulsa el gatillo
 
