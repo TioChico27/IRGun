@@ -1,68 +1,42 @@
 {
   "files" : [ {
     "remoteURL" : "https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json",
-    "localPath" : "C:\\Users\\yakara\\Desktop\\ps1 games\\Arduino_irgun_2_3_Portable\\Arduino IDE Portable\\portable\\cache\\raw.githubusercontent.com\\sparkfun\\Arduino_Boards\\main\\IDE_Board_Manager\\package_sparkfun_index.json",
-    "eTag" : "fafaed3ae7ec5d06ae39adf2bc4e15c4d689ba0bae7bc652409d321f4c7b8d5a",
-    "md5" : "MD5:7f826485eefe5e9c3c6fbd165fbd59c6",
-    "createdAt" : "2023-10-10T13:15:55.221",
+    "localPath" : "C:\\Users\\yakara\\Downloads\\IRGun_Makoto_Yakarizado-master\\PORTABLE\\Arduino IDE Portable\\portable\\cache\\raw.githubusercontent.com\\sparkfun\\Arduino_Boards\\main\\IDE_Board_Manager\\package_sparkfun_index.json",
+    "eTag" : "aa789da83759168074d79ff0cc860f58805a5718451e1f65ff30cac44164cd46",
+    "md5" : "MD5:d335448f9bf065e740291b2bd9b566b3",
+    "createdAt" : "2023-11-07T12:22:52.983",
     "cacheControl" : {
       "maxAge" : 300,
       "noCache" : false,
-      "noStore" : false,
-      "mustRevalidate" : false
+      "mustRevalidate" : false,
+      "noStore" : false
     },
-    "expires" : "2023-10-10T13:20:55.221"
-  }, {
-    "remoteURL" : "https://downloads.arduino.cc/libraries/library_index.json.gz",
-    "localPath" : "C:\\Users\\yakara\\Desktop\\ps1 games\\Arduino_irgun_2_3_Portable\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\libraries\\library_index.json.gz",
-    "eTag" : "607a3c59a30b2f841e84b0c5a81d9b0e",
-    "md5" : "MD5:607a3c59a30b2f841e84b0c5a81d9b0e",
-    "createdAt" : "2023-10-11T11:09:38.684",
-    "cacheControl" : {
-      "maxAge" : 14400,
-      "noCache" : false,
-      "noStore" : false,
-      "mustRevalidate" : false
-    },
-    "expires" : "2023-10-11T15:09:38.684"
+    "expires" : "2023-11-07T12:27:52.983"
   }, {
     "remoteURL" : "https://downloads.arduino.cc/packages/package_index.json.sig",
-    "localPath" : "C:\\Users\\yakara\\Desktop\\ps1 games\\Arduino_irgun_2_3_Portable\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\packages\\package_index.json.sig",
-    "eTag" : "736eabdcf2b047acc0d839f6f73efeb5",
-    "md5" : "MD5:736eabdcf2b047acc0d839f6f73efeb5",
-    "createdAt" : "2023-10-10T13:15:55.924",
+    "localPath" : "C:\\Users\\yakara\\Downloads\\IRGun_Makoto_Yakarizado-master\\PORTABLE\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\packages\\package_index.json.sig",
+    "eTag" : "0864c42187022d9706ef431d48b5fcd6",
+    "md5" : "MD5:0864c42187022d9706ef431d48b5fcd6",
+    "createdAt" : "2023-11-07T12:20:59.687",
     "cacheControl" : {
       "maxAge" : 3600,
       "noCache" : false,
-      "noStore" : false,
-      "mustRevalidate" : false
+      "mustRevalidate" : false,
+      "noStore" : false
     },
-    "expires" : "2023-10-10T14:15:55.924"
-  }, {
-    "remoteURL" : "https://downloads.arduino.cc/libraries/library_index.json.sig",
-    "localPath" : "C:\\Users\\yakara\\Desktop\\ps1 games\\Arduino_irgun_2_3_Portable\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\libraries\\library_index.json.sig",
-    "eTag" : "48788b662e542f05f1a2a661f05fa97f",
-    "md5" : "MD5:48788b662e542f05f1a2a661f05fa97f",
-    "createdAt" : "2023-10-11T11:09:39.09",
-    "cacheControl" : {
-      "maxAge" : 14400,
-      "noCache" : false,
-      "noStore" : false,
-      "mustRevalidate" : false
-    },
-    "expires" : "2023-10-11T15:09:39.090"
+    "expires" : "2023-11-07T13:20:59.687"
   }, {
     "remoteURL" : "https://downloads.arduino.cc/packages/package_index.json",
-    "localPath" : "C:\\Users\\yakara\\Desktop\\ps1 games\\Arduino_irgun_2_3_Portable\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\packages\\package_index.json",
-    "eTag" : "b547909f4dd09f9f3d1308db229b7785",
-    "md5" : "MD5:b547909f4dd09f9f3d1308db229b7785",
-    "createdAt" : "2023-10-10T13:15:55.689",
+    "localPath" : "C:\\Users\\yakara\\Downloads\\IRGun_Makoto_Yakarizado-master\\PORTABLE\\Arduino IDE Portable\\portable\\cache\\downloads.arduino.cc\\packages\\package_index.json",
+    "eTag" : "2bbc0c6f398f20feecf9d40a577c4f19",
+    "md5" : "MD5:2bbc0c6f398f20feecf9d40a577c4f19",
+    "createdAt" : "2023-11-07T12:20:59.453",
     "cacheControl" : {
       "maxAge" : 3600,
       "noCache" : false,
-      "noStore" : false,
-      "mustRevalidate" : false
+      "mustRevalidate" : false,
+      "noStore" : false
     },
-    "expires" : "2023-10-10T14:15:55.689"
+    "expires" : "2023-11-07T13:20:59.453"
   } ]
 }
