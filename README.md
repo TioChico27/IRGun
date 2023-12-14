@@ -24,7 +24,8 @@
    revision + arduino portable + app de testeo 4ir + traduccion por www.mundoyakara.com
    
    ######################
-   
+
+     # si quieres usar la camara DFROBOT debes usar un arduino de 5v, el arduino de 3.3v solo es compatible con la camara de wii
 
    Funciona con una configuración de 4 fuentes de luz infrarroja (2 arriba y 2 abajo de la pantalla)
    
