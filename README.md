@@ -2,8 +2,6 @@ Lightgun 4IR
 
 Fork de IRGun Makoto Yakarizado
 
-https://www.mundoyakara.com/
-
-https://www.youtube.com/watch?v=K_C604FbPDc
+https://github.com/yakaracolombia/IRGun_Makoto_Yakarizado
 
 Fiz pequenas modificações e correção de alguns bugs.
