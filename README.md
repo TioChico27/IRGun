@@ -1,7 +1,5 @@
 Lightgun 4IR
 
-Fork de IRGun Makoto Yakarizado
+Contém algumas modificações e correção de bugs.
 
-https://github.com/yakaracolombia/IRGun_Makoto_Yakarizado
-
-Fiz pequenas modificações e correção de alguns bugs.
+Projeto original: https://github.com/yakaracolombia/IRGun_Makoto_Yakarizado
