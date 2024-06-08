@@ -1,4 +1,4 @@
-Lightgun 4IR
+IRGun
 
 Projeto original: https://github.com/yakaracolombia/IRGun_Makoto_Yakarizado
 
